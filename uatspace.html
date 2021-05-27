@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--UAT Space Program Shell Page
+Written by Megan Folsom
+megfolso@uat.edu
+May 13, 2021-->
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="code.js"></script>
+    <title>UAT Space Program Data</title>
+</head>
+
+<body>
+    <!-- making a table to hold h1 title and jpg-->
+    <table>
+        <td>
+            <img src='UATspaceLogo-2.jpg' />
+        </td>
+        <td>
+            <h1>UAT Space Program</h1>
+        </td>
+    </table>
+    <table border="2" width="70%">
+        <col style="width: 35%;">
+        <col style="width: 35%;">
+        <thead>
+            <th>Data Type</th>
+            <th>Reading</th>
+        </thead>
+        <tbody>
+            <tr id="seconds"><td>Time Elapsed</td><td>15 seconds</td></tr>
+            <tr><td>Latitude</td><td>0</td></tr>
+            <tr><td>Longitude</td><td>0</td></tr>
+        </tbody>
+    </table>
+
+    <script>
+        //Javascript Stuff should happen here
+        document.write("document.write function test");
+    </script>
+    <p>Paragraph Tag Placeholder Text</p>
+    <br>
+    <br>
+    <br>
+    <p id="countdownTimer">Countdown Status ...</p>
+    <button style='color:green;' onclick="betterCountdown();">Start</button>
+    <button style='color:red;'>Stop</button>
+    <!--script>alert("We have lift-off!");</script-->
+</body>
+
+</html>
