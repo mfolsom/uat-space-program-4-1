@@ -1,4 +1,23 @@
 
+//start button
+function start(){
+    //testing start button functionality
+    console.log("START button pushed!");
+    //disables start button on click event and enables stop
+    document.getElementById("startButton").disabled=true;
+    //ensures stop is enabled on click event
+    document.getElementById("stopButton").disabled=false;
+}
+
+function stop(){
+    //testing stop button functionality
+    console.log("STOP button pushed!");
+    //disables stop button on click event
+    document.getElementById("stopButton").disabled=true;
+    //ensures start button is enabled on click event
+    document.getElementById("startButton").disabled=false;
+}
+
 function betterCountdown() {
     var count = 10;
     //setting arguments for iterating
