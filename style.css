@@ -13,7 +13,7 @@ body {
     /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 45px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -26,7 +26,7 @@ body {
     /* Red */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 45px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -37,3 +37,25 @@ body {
 .startButton:hover {
     background-color: rgb(9, 58, 42);
 }
+#dataTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  #dataTable td, #dataTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #dataTable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #dataTable tr:hover {background-color: #ddd;}
+  
+  #dataTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
